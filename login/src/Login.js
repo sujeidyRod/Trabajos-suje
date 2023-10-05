@@ -13,7 +13,7 @@ function LoginF({ onLogin }) {
   };
 
   const handleLogin = () => {
-
+    // Simulate a simple login logic
     if (username === 'Sujey' && password === '12345') {
       onLogin(username);
     } else {
